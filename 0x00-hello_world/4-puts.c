@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  * puts - Prints on std output
- * return - Always 0 (success)
+ * Return: Always 0 (Success)
+ * Main - Prints "Programming is like building a multilingual puzzle
  */
 
 int main(void)
