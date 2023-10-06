@@ -7,19 +7,18 @@
 
 int main(void)
 {
-	char alphabet = 'a';
+	int n = 97;
+	int m = 65;
 
-	while (alphabet <= 'z')
+	while (n <= 122)
 	{
-		putchar(alphabet);
-		alphabet++;
+		putchar(n);
+		n++;
 	}
-	char uppercase = 'A';
-
-	while (uppercase <= 'Z')
+	while (m <= 90)
 	{
-		putchar(uppercase);
-		uppercase++;
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
